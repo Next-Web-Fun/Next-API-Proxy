@@ -6,16 +6,20 @@
       "destination": "http://api.nextweb.fun/usage/public"
     },
     {
+      "source": "/api/:match*",
+      "destination": "https://api.nextweb.fun/api/:match*"
+    },
+    {
+      "source": "/openai/:match*",
+      "destination": "https://api.nextweb.fun/openai/:match*"
+    },
+    {
       "source": "/_next/static/:match*",
       "destination": "https://api.nextweb.fun/_next/static/:match*"
     },
     {
       "source": "/v1/:match*",
       "destination": "https://api.nextweb.fun/api/openai/v1/:match*"
-    },
-    {
-      "source": "/api/:match*",
-      "destination": "https://api.nextweb.fun/api/openai/api/:match*"
     },
     {
       "source": "/chat/:match*",
