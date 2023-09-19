@@ -14,6 +14,10 @@
       "destination": "https://api.nextweb.fun/api/openai/v1/:match*"
     },
     {
+      "source": "/api/:match*",
+      "destination": "https://api.nextweb.fun/api/openai/api/:match*"
+    },
+    {
       "source": "/chat/:match*",
       "destination": "https://api.nextweb.fun/api/openai/v1/chat/:match*"
     },
