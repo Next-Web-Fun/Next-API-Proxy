@@ -1,0 +1,13 @@
+{
+  "regions": ["hnd1"],
+  "rewrites": [
+    {
+      "source": "/usage:match*",
+      "destination": "http://api.nextweb.fun/usage/public"
+    },
+    {
+      "source": "/:match*",
+      "destination": "https://api.nextweb.fun/api/openai/:match*"
+    }
+  ]
+}
