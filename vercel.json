@@ -6,8 +6,12 @@
       "destination": "http://api.nextweb.fun/usage/public"
     },
     {
-      "source": "/:match*",
-      "destination": "https://api.nextweb.fun/api/openai/:match*"
+      "source": "/_next/static/:match*",
+      "destination": "https://api.nextweb.fun/_next/static/:match*"
+    },
+    {
+      "source": "/v1/:match*",
+      "destination": "https://api.nextweb.fun/api/openai/v1/:match*"
     }
   ]
 }
