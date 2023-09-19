@@ -12,6 +12,22 @@
     {
       "source": "/v1/:match*",
       "destination": "https://api.nextweb.fun/api/openai/v1/:match*"
+    },
+    {
+      "source": "/chat/:match*",
+      "destination": "https://api.nextweb.fun/api/openai/v1/chat/:match*"
+    },
+    {
+      "source": "/dashboard/:match*",
+      "destination": "https://api.nextweb.fun/api/openai/v1/dashboard/:match*"
+    },
+    {
+      "source": "/models/:match*",
+      "destination": "https://api.nextweb.fun/api/openai/v1/models/:match*"
+    },
+    {
+      "source": "/embeddings/:match*",
+      "destination": "https://api.nextweb.fun/api/openai/v1/embeddings/:match*"
     }
   ]
 }
