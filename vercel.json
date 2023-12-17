@@ -3,39 +3,39 @@
   "rewrites": [
     {
       "source": "/usage:match*",
-      "destination": "http://api.nextweb.fun/usage/public"
+      "destination": "http://next-api-jade.vercel.app/usage/public"
     },
     {
       "source": "/api/:match*",
-      "destination": "https://api.nextweb.fun/api/:match*"
+      "destination": "https://next-api-jade.vercel.app/api/:match*"
     },
     {
       "source": "/openai/:match*",
-      "destination": "https://api.nextweb.fun/openai/:match*"
+      "destination": "https://next-api-jade.vercel.app/openai/:match*"
     },
     {
       "source": "/_next/static/:match*",
-      "destination": "https://api.nextweb.fun/_next/static/:match*"
+      "destination": "https://next-api-jade.vercel.app/_next/static/:match*"
     },
     {
       "source": "/v1/:match*",
-      "destination": "https://api.nextweb.fun/api/openai/v1/:match*"
+      "destination": "https://next-api-jade.vercel.app/api/openai/v1/:match*"
     },
     {
       "source": "/chat/:match*",
-      "destination": "https://api.nextweb.fun/api/openai/v1/chat/:match*"
+      "destination": "https://next-api-jade.vercel.app/api/openai/v1/chat/:match*"
     },
     {
       "source": "/dashboard/:match*",
-      "destination": "https://api.nextweb.fun/api/openai/v1/dashboard/:match*"
+      "destination": "https://next-api-jade.vercel.app/api/openai/v1/dashboard/:match*"
     },
     {
       "source": "/models/:match*",
-      "destination": "https://api.nextweb.fun/api/openai/v1/models/:match*"
+      "destination": "https://next-api-jade.vercel.app/api/openai/v1/models/:match*"
     },
     {
       "source": "/embeddings/:match*",
-      "destination": "https://api.nextweb.fun/api/openai/v1/embeddings/:match*"
+      "destination": "https://next-api-jade.vercel.app/api/openai/v1/embeddings/:match*"
     }
   ]
 }
